@@ -1,0 +1,12 @@
+name: Greet User
+on: push
+jobs:
+    test:
+        runs-on: ubuntu-latest
+        steps:
+          - name: Get Code 
+            run: |
+                echo "Cloning repository"
+                echo "${{toJson(github)}}"
+                git clone https://github.com/${{github.repository}}.git myfiles  
+                cd myfiles && ls
