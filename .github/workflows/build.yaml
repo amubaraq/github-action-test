@@ -24,8 +24,10 @@ jobs:
               run: npm install 
             - name: Run Preview 
               run: |
-                  npm run preview
-                  sleep 5     
+                  npm run preview &
+                  PREVIEW_PID=$!
+                  sleep 5   
+                  kill $PREVIEW_PID  
             - name: Completed Job 
               run: echo "Preview Completed" 
               
