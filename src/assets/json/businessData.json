@@ -1,0 +1,304 @@
+[
+  {
+    "id": 1,
+    "type": "business",
+    "name": "Business A",
+    "category": "Restaurant",
+    "rating": 4.5,
+    "location": "Imo",
+    "address": "123 Main St, Imo",
+    "owner": {
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "+234 123 456 7890"
+    },
+    "blacklisted": true,
+    "blacklistedDate": "2024-02-07",
+    "blacklistedType": "business",
+    "blacklistReason": "Bad credit reviews",
+    "blacklistReports": 15,
+    "image": "https://res.cloudinary.com/dvrrp1om6/image/upload/v1738679858/wmremove-transformed_xeagfn.jpg"
+  },
+
+  {
+    "id": 2,
+    "type": "business",
+    "name": "Business B",
+    "category": "Hotel",
+    "rating": 4.0,
+    "location": "Imo",
+    "address": "456 Broad St, Imo",
+    "owner": {
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "phone": "+234 987 654 3210"
+    },
+    "blacklisted": true,
+    "blacklistedDate": "2024-02-07",
+    "blacklistedType": "business",
+    "blacklistReason": "Bad credit reviews",
+    "blacklistReports": 15,
+    "image": "https://res.cloudinary.com/dvrrp1om6/image/upload/v1738679858/wmremove-transformed_xeagfn.jpg"
+  },
+  {
+    "id": 3,
+    "type": "business",
+    "name": "Business C",
+    "category": "Retail",
+    "rating": 3.8,
+    "location": "Imo",
+    "address": "789 Market St, Imo",
+    "owner": {
+      "name": "Chinedu Okoro",
+      "email": "chinedu.okoro@example.com",
+      "phone": "+234 555 123 4567"
+    },
+    "blacklisted": true,
+    "blacklistedDate": "2024-02-07",
+    "blacklistedType": "business",
+    "blacklistReason": "Bad credit reviews",
+    "blacklistReports": 15,
+    "image": "https://res.cloudinary.com/dvrrp1om6/image/upload/v1738679858/wmremove-transformed_xeagfn.jpg"
+  },
+  {
+    "id": 4,
+    "type": "business",
+    "name": "Business D",
+    "category": "Cafe",
+    "rating": 4.2,
+    "location": "Imo",
+    "address": "321 Coffee St, Imo",
+    "owner": {
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "phone": "+234 234 567 8901"
+    },
+    "blacklisted": true,
+    "blacklistedDate": "2024-02-07",
+    "blacklistedType": "business",
+    "blacklistReason": "Bad credit reviews",
+    "blacklistReports": 15,
+    "image": "https://res.cloudinary.com/dvrrp1om6/image/upload/v1738679858/wmremove-transformed_xeagfn.jpg"
+  },
+  {
+    "id": 5,
+    "type": "business",
+    "name": "Business E",
+    "category": "Gym",
+    "rating": 4.7,
+    "location": "Abia",
+    "address": "654 Fitness Ave, Abia",
+    "owner": {
+      "name": "Michael Brown",
+      "email": "michael.brown@example.com",
+      "phone": "+234 345 678 9012"
+    },
+    "blackList": "false",
+    "image": "https://res.cloudinary.com/dvrrp1om6/image/upload/v1738679858/wmremove-transformed_xeagfn.jpg"
+  },
+  {
+    "id": 6,
+    "type": "business",
+    "name": "Business F",
+    "category": "Spa",
+    "rating": 4.3,
+    "location": "Abia",
+    "address": "987 Relax Rd, Abia",
+    "owner": {
+      "name": "Sarah Connor",
+      "email": "sarah.connor@example.com",
+      "phone": "+234 456 789 0123"
+    },
+    "blackList": "false",
+    "image": "https://res.cloudinary.com/dvrrp1om6/image/upload/v1738679858/wmremove-transformed_xeagfn.jpg"
+  },
+  {
+    "id": 7,
+    "type": "business",
+    "name": "Business G",
+    "category": "Bakery",
+    "rating": 4.6,
+    "location": "Abia",
+    "address": "159 Sweet St, Abia",
+    "owner": {
+      "name": "Emma Watson",
+      "email": "emma.watson@example.com",
+      "phone": "+234 567 890 1234"
+    },
+    "blackList": "false",
+    "image": "https://res.cloudinary.com/dvrrp1om6/image/upload/v1738679858/wmremove-transformed_xeagfn.jpg"
+  },
+  {
+    "id": 8,
+    "type": "business",
+    "name": "Business H",
+    "category": "Barber Shop",
+    "rating": 4.1,
+    "location": "Abia",
+    "address": "753 Style St, Abia",
+    "owner": {
+      "name": "Liam Neeson",
+      "email": "liam.neeson@example.com",
+      "phone": "+234 678 901 2345"
+    },
+    "blackList": "false",
+    "image": "https://res.cloudinary.com/dvrrp1om6/image/upload/v1738679858/wmremove-transformed_xeagfn.jpg"
+  },
+  {
+    "id": 9,
+    "type": "business",
+    "name": "Business I",
+    "category": "Florist",
+    "rating": 4.4,
+    "location": "Enugu",
+    "address": "852 Flower St, Enugu",
+    "owner": {
+      "name": "Olivia Wilde",
+      "email": "olivia.wilde@example.com",
+      "phone": "+234 789 012 3456"
+    },
+    "blackList": "false",
+    "image": "https://res.cloudinary.com/dvrrp1om6/image/upload/v1738679858/wmremove-transformed_xeagfn.jpg"
+  },
+  {
+    "id": 10,
+    "type": "business",
+    "name": "Business J",
+    "category": "Bookstore",
+    "rating": 4.8,
+    "location": "Imo",
+    "address": "963 Read St, Imo",
+    "owner": {
+      "name": "Noah Centineo",
+      "email": "noah.centineo@example.com",
+      "phone": "+234 890 123 4567"
+    },
+    "blackList": "false",
+    "image": "https://res.cloudinary.com/dvrrp1om6/image/upload/v1738679858/wmremove-transformed_xeagfn.jpg"
+  },
+  {
+    "id": 11,
+    "type": "business",
+    "name": "Business K",
+    "category": "Clothing Store",
+    "rating": 4.5,
+    "address": "147 Fashion St, Abuja",
+    "location": "Abuja",
+    "owner": {
+      "name": "Sophia Turner",
+      "email": "sophia.turner@example.com",
+      "phone": "+234 901 234 5678"
+    },
+    "blackList": "false",
+    "image": "https://res.cloudinary.com/dvrrp1om6/image/upload/v1738679858/wmremove-transformed_xeagfn.jpg"
+  },
+  {
+    "id": 12,
+    "type": "business",
+    "name": "Business L",
+    "category": "Pet Shop",
+    "rating": 4.2,
+    "location": "Port Harcourt",
+    "address": "258 Pet St, Port Harcourt",
+    "owner": {
+      "name": "James Bond",
+      "email": "james.bond@example.com",
+      "phone": "+234 012 345 6789"
+    },
+    "blackList": "false",
+    "image": "https://res.cloudinary.com/dvrrp1om6/image/upload/v1738679858/wmremove-transformed_xeagfn.jpg"
+  },
+  {
+    "id": 13,
+    "type": "business",
+    "name": "Business M",
+    "category": "Electronics Store",
+    "rating": 4.3,
+    "location": "Lagos",
+    "address": "369 Tech St, Lagos",
+    "owner": {
+      "name": "Peter Parker",
+      "email": "peter.parker@example.com",
+      "phone": "+234 234 567 8901"
+    },
+    "blackList": "false",
+    "image": "https://res.cloudinary.com/dvrrp1om6/image/upload/v1738679858/wmremove-transformed_xeagfn.jpg"
+  },
+  {
+    "id": 14,
+    "type": "business",
+    "name": "Business N",
+    "category": "Travel Agency",
+    "rating": 4.6,
+    "location": "Abuja",
+    "address": "741 Travel St, Abuja",
+    "owner": {
+      "name": "Clark Kent",
+      "email": "clark.kent@example.com",
+      "phone": "+234 345 678 9012"
+    },
+    "blackList": "false",
+    "image": "https://res.cloudinary.com/dvrrp1om6/image/upload/v1738679858/wmremove-transformed_xeagfn.jpg"
+  },
+  {
+    "id": 15,
+    "type": "business",
+    "name": "Business O",
+    "category": "Construction",
+    "rating": 4.1,
+    "location": "Port Harcourt",
+    "address": "852 Build St, Port Harcourt",
+    "owner": {
+      "name": "Bruce Wayne",
+      "email": "bruce.wayne@example.com",
+      "phone": "+234 456 789 0123"
+    },
+    "blacklisted": false,
+    "blacklistedDate": "2024-02-07",
+    "blacklistedType": "business",
+    "reason": "Bad credit reviews",
+    "image": "https://res.cloudinary.com/dvrrp1om6/image/upload/v1738679858/wmremove-transformed_xeagfn.jpg"
+  },
+  {
+    "id": 16,
+    "type": "people",
+    "name": "John Doe",
+    "profession": "Software Engineer",
+    "location": "Lagos",
+    "email": "john.doe@example.com",
+    "phone": "+234 123 456 7890",
+    "blacklisted": false,
+    "blacklistedDate": "2024-02-07",
+    "blacklistedType": "business",
+    "reason": "Bad credit reviews",
+    "image": "https://res.cloudinary.com/dvrrp1om6/image/upload/v1738679858/wmremove-transformed_xeagfn.jpg"
+  },
+  {
+    "id": 17,
+    "type": "people",
+    "name": "Jane Smith",
+    "profession": "Graphic Designer",
+    "location": "Abuja",
+    "email": "jane.smith@example.com",
+    "phone": "+234 987 654 3210",
+    "blacklisted": false,
+    "blacklistedDate": "2024-02-07",
+    "blacklistedType": "business",
+    "reason": "Bad credit reviews",
+    "image": "https://res.cloudinary.com/dvrrp1om6/image/upload/v1738679858/wmremove-transformed_xeagfn.jpg"
+  },
+  {
+    "id": 18,
+    "type": "people",
+    "name": "Chinedu Okoro",
+    "profession": "Marketing Manager",
+    "location": "Port Harcourt",
+    "email": "chinedu.okoro@example.com",
+    "phone": "+234 555 123 4567",
+    "blacklisted": false,
+    "blacklistedDate": "2024-02-07",
+    "blacklistedType": "business",
+    "blacklistReason": "Bad credit reviews",
+    "image": "https://res.cloudinary.com/dvrrp1om6/image/upload/v1738679858/wmremove-transformed_xeagfn.jpg"
+  }
+]

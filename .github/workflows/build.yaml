@@ -14,3 +14,16 @@ jobs:
           ## Alternative simple method##
             - name: Get Code
               uses: actions/checkout@v4
+            - name: Install Node
+              uses: actions/setup-node@v4
+              with:
+                node-version: 22
+            - name: Print Node Version 
+              run: node -v 
+            - name: Install Dependencies
+              run: npm install 
+            - name: Run Test 
+              run: npm run test
+            - name: Completed Job 
+              run: echo "Test Completed" 
+              

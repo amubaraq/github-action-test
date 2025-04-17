@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "name": "John Prince Michael",
+    "profession": "Software Engineer",
+    "location": "Lagos",
+    "skills": "JavaScript, React, Node.js",
+    "email": "john.doe@example.com",
+    "phone": "+1 123 456 7890",
+    "image": "https://res.cloudinary.com/dvrrp1om6/image/upload/v1738679858/wmremove-transformed_xeagfn.jpg"
+  },
+  {
+    "id": 2,
+    "name": "uchey peters",
+    "profession": "Graphic Designer",
+    "location": "Abuja",
+    "skills": "Photoshop, Illustrator, UI/UX",
+    "email": "jane.smith@example.com",
+    "phone": "+1 987 654 3210",
+    "image": "https://res.cloudinary.com/dvrrp1om6/image/upload/v1738679858/wmremove-transformed_xeagfn.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Arthur Eze",
+    "profession": "Graphic Designer",
+    "location": "Portharcourt",
+    "skills": "Photoshop, Illustrator, UI/UX",
+    "email": "jane.smith@example.com",
+    "phone": "+1 987 654 3210",
+    "image": "https://res.cloudinary.com/dvrrp1om6/image/upload/v1738679858/wmremove-transformed_xeagfn.jpg"
+  },
+
+  {
+    "id": 4,
+    "name": "Alhaji yusuf",
+    "profession": "Graphic Designer",
+    "location": "Los Angeles",
+    "skills": "Photoshop, Illustrator, UI/UX",
+    "email": "jane.smith@example.com",
+    "phone": "+1 987 654 3210",
+    "image": "https://res.cloudinary.com/dvrrp1om6/image/upload/v1738679858/wmremove-transformed_xeagfn.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Adewale johnson",
+    "profession": "Graphic Designer",
+    "location": "Los Angeles",
+    "skills": "Photoshop, Illustrator, UI/UX",
+    "email": "jane.smith@example.com",
+    "phone": "+1 987 654 3210",
+    "image": "https://res.cloudinary.com/dvrrp1om6/image/upload/v1738679858/wmremove-transformed_xeagfn.jpg"
+  }
+]
