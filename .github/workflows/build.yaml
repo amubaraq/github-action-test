@@ -22,8 +22,8 @@ jobs:
               run: node -v 
             - name: Install Dependencies
               run: npm install 
-            - name: Run Test 
-              run: npm run test
+            - name: Run Preview 
+              run: npm run preview 
             - name: Completed Job 
-              run: echo "Test Completed" 
+              run: echo "Preview Completed" 
               
