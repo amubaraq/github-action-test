@@ -32,6 +32,7 @@ jobs:
               run: echo "Preview Completed" 
 
     Build: 
+        needs: preview
         runs-on: ubuntu-latest
         steps:
             - name: Get Code
@@ -47,7 +48,7 @@ jobs:
 
             - name: Install Dependencies
               run: npm install
-              
+
             - name: Build The Project
               run: npm run build  
                  
