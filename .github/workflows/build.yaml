@@ -23,7 +23,7 @@ jobs:
             - name: Install Dependencies
               run: npm install 
             - name: Run Preview 
-              run: npm run preview 
+              run: setTimeout(npm run preview, 1000)       
             - name: Completed Job 
               run: echo "Preview Completed" 
               
