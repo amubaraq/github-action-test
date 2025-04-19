@@ -1,5 +1,15 @@
 name: Build
-on: push
+on: 
+    push:
+      branches: 
+        - main
+        - 'feature/**'
+      paths-ignore:
+        - README.md
+        - '.github/workflows/*'
+    workflow_dispatch:
+      
+
 jobs:
     preview:
         runs-on: ubuntu-latest
