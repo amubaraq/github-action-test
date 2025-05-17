@@ -1,0 +1,74 @@
+name: Build
+on: 
+    push:
+      branches: 
+        - main
+        - 'feature/**'
+      paths-ignore:
+        - README.md
+        - '.github/workflows/*'
+    workflow_dispatch:
+      
+
+jobs:
+    preview:
+        runs-on: ubuntu-latest
+        steps:
+
+            - name: Get Code
+              uses: actions/checkout@v4
+              
+            - name: Install Node
+              uses: ./.github/actions/setupnode
+
+            - name: Run Preview 
+              run: |
+                  npm run preview &
+                  PREVIEW_PID=$!
+                  sleep 5   
+                  kill $PREVIEW_PID  
+            - name: Completed Job 
+              run: echo "Preview Completed" 
+
+    Build: 
+        needs: preview
+        runs-on: ubuntu-latest
+        steps:
+            - name: Get Code
+              uses: actions/checkout@v4
+
+            - name: Install Node
+              uses: ./.github/actions/setupnode  
+
+            - name: Build The Project
+              run: npm run build
+
+            - name: Upload Dist Artifact
+              uses: actions/upload-pages-artifact@v3 
+              with:
+                name: dist-files
+                path: dist
+                 
+    deploy:
+          # Specify runner + deployment step
+          runs-on: ubuntu-latest
+          # Add a dependency to the build job
+          needs: Build
+
+          # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+          permissions:
+            pages: write      # to deploy to Pages
+            id-token: write   # to verify the deployment originates from an appropriate source
+
+          # Deploy to the github-pages environment
+          environment:
+            name: github-pages
+            url: ${{ steps.deployment.outputs.page_url }}
+
+          
+          steps:
+            - name: Deploy to GitHub Pages
+              id: deployment
+              uses: actions/deploy-pages@v4 # or specific "vX.X.X" version tag for this action
+              with:
+                token: 	${{ secrets.GITHUB_TOKEN }}
